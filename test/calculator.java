@@ -9,31 +9,19 @@ public class calculator {
 	}
 
 	private static double division(double int1, double int2) {
-		// TODO Auto-generated method stub
-		System.out.println(int1 / int2);
-		if (int1 < int2) {
-			return int1 / int2;
-		}
-		System.out.println("Division cannot be performed");
-		return -1;
-
+		return int1 / int2;
 	}
 
 	private static int subtraction(int int1, int int2) {
-		// TODO Auto-generated method stub
 		return int1 - int2;
-
 	}
 
 	private static int multiplication(int int1, int int2) {
-		// TODO Auto-generated method stub
 		return int1 * int2;
 	}
 
 	private static int addTwoNumbs(int int1, int int2) {
-		// TODO Auto-generated method stub
 		int sum = int1 + int2;
-		System.out.println(sum);
 		return sum;
 	}
 
